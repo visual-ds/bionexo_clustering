@@ -17,7 +17,7 @@ dataset folder contains raw_data.csv with raw data of the products and data_prep
 
 TF-IDF.ipynb : Contains the code to generate the vectors tf-idf using the description of the products, The vectors are already generated in the file tfidf_vectors.npz.
 
-w2v.ipynb : 
+w2v.ipynb : Contains the code to generate the word2vec vectors using the description of the products, The vectors are already generated in the file w2v_vectors.npy.
 
 
 ### Installing
@@ -27,7 +27,7 @@ We use Python 3
 pip install sklearn
 pip install scipy
 pip install nltlk
-
+pip install spacy
 ```
 
 ## Authors
